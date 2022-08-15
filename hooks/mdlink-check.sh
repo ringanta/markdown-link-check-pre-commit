@@ -21,6 +21,9 @@ cat > "$TMP_CONFIG" <<EOF
   "ignorePatterns": [
     {
       "pattern": "^#"
+    },
+    {
+      "pattern": "^https://github.com/xendit/.*"
     }
   ],
   "replacementPatterns": [
