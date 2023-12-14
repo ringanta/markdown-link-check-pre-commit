@@ -24,6 +24,9 @@ cat > "$TMP_CONFIG" <<EOF
     },
     {
       "pattern": "^https://github.com/xendit/.*"
+    },
+    {
+      "pattern": "^https://xendit-terraform-modules.s3.ap-southeast-1.amazonaws.com/.*"
     }
   ],
   "replacementPatterns": [
